@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://trrip-ai-itinerary.vercel.app/login",
+      "https://trrip-ai-itinerary.vercel.app",
     ],
     credentials: true,
   })
