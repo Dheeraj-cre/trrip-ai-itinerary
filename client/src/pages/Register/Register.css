@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+}
+
+.register-card {
+  width: 400px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.2);
+}
+
+.register-card h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.register-card p {
+  text-align: center;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.register-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-card input {
+  margin-bottom: 15px;
+  padding: 13px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.register-card input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.register-card button {
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.register-card button:hover {
+  background: #1d4ed8;
+}
+
+.bottom-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bottom-text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}

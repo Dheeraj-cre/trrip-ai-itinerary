@@ -1,0 +1,69 @@
+
+.itinerary {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8fafc;
+}
+
+.itinerary h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 30px;
+}
+
+.itinerary section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.itinerary section h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.itinerary ul {
+  padding-left: 20px;
+}
+
+.itinerary li {
+  margin-bottom: 8px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+}
+
+.secondary-btn {
+  background: #e5e7eb;
+}
+
+.secondary-btn:hover {
+  background: #d1d5db;
+}
+
